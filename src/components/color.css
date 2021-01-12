@@ -1,0 +1,74 @@
+.newcolor{
+    background: url('https://cdn5.vectorstock.com/i/1000x1000/39/74/vertical-wavy-rainbow-background-vector-23823974.jpg');
+    height: 100vh;
+    position: relative;
+}
+
+.form{
+    width: 70%;
+    background-color: whitesmoke;
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    height: 150px;
+    border-radius: 7px;
+}
+
+label{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#colorName{
+    margin: 30px 0 5px 0;
+}
+
+.btn,label {
+    margin-left: 10px;
+}
+
+input{
+    width: 40%;
+}
+
+#value{
+    margin-left: 4px;
+    width: 28%;
+}
+
+.btn{
+    margin-top: 13px;
+    color: white;
+    background-color: teal;
+    width: 25%;
+    text-align: center;
+    border-radius: 3px;
+    padding: 3px;
+    text-decoration: teal;
+}
+
+.btn:hover{
+    background-color: rgb(4, 94, 94);
+}
+
+.displayColor{
+    width: 10%;
+    height: 13%;
+    border: .5px solid rgb(122, 119, 119);
+    display: inline-block;
+    position: absolute;
+    margin-left: 17px;
+}
+
+.colorWheel{
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+}
+
+.colorWheel p{
+    font-size: .6em;
+    color: red;
+}

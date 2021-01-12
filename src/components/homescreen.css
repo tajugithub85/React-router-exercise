@@ -1,0 +1,26 @@
+main{
+    background: url('https://wallpaperaccess.com/full/199378.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -25px;
+    position: relative;
+}
+
+.div{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+    height: 150px;
+    background: rgb(245, 245, 245, 0.6);
+    border-radius: 7px;
+}
+
+.heading{
+    font-weight: bolder;
+    color: rgb(66, 6, 6);
+}
+
+.text{
+    font-size: 1.8rem;
+}
